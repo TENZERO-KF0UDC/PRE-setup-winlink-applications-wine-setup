@@ -1,3 +1,8 @@
+rmsgw is only needed if you are running a Winlink gateway station (sysop level) — this is    
+Linux-only and not supported on macOS via Wine                                                 
+The SCS USB Driver is only needed if you are using a physical SCS modem — kernel drivers     
+cannot run via Wine on any platform; use a Windows VM for this 
+ 
  Run wine-linux-ham-setup.desktop on Linux or wine-macos-ham-setup.command on macOS to          
   automatically install Wine and all required dependencies for Winlink applications — these are  
   the only files needed to run; the .txt files are provided for reference to show how the scripts
